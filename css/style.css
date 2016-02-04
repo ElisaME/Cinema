@@ -1,0 +1,30 @@
+
+body{
+	font-family: Arial;
+}
+.buscar{
+	border:1px solid gray;
+	padding-right: 20px;
+}
+.iconoBH{
+	position: relative;
+	left: 30%;
+	top: 50%;
+}
+.txtBigHero{
+	position: absolute;
+	right: 0;
+	margin: 30px;
+}
+.inline{
+	display: inline-block;
+}
+.CuadroVerde{
+	border: 1px solid green;
+	padding: 10px;
+	border-radius: 5px;
+	color: green;
+}
+.galeria{
+	background-color: #FACC2E;
+}
