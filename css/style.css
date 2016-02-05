@@ -2,12 +2,22 @@
 body{
 	font-family: Arial;
 }
+.fondoGris{
+	background: rgba(219,219,219,1);
+background: -moz-linear-gradient(left, rgba(219,219,219,1) 0%, rgba(254,254,254,1) 0%, rgba(226,226,226,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(219,219,219,1)), color-stop(0%, rgba(254,254,254,1)), color-stop(100%, rgba(226,226,226,1)));
+background: -webkit-linear-gradient(left, rgba(219,219,219,1) 0%, rgba(254,254,254,1) 0%, rgba(226,226,226,1) 100%);
+background: -o-linear-gradient(left, rgba(219,219,219,1) 0%, rgba(254,254,254,1) 0%, rgba(226,226,226,1) 100%);
+background: -ms-linear-gradient(left, rgba(219,219,219,1) 0%, rgba(254,254,254,1) 0%, rgba(226,226,226,1) 100%);
+background: linear-gradient(to right, rgba(219,219,219,1) 0%, rgba(254,254,254,1) 0%, rgba(226,226,226,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbdbdb', endColorstr='#e2e2e2', GradientType=1 );
+}
 .buscar{
 	border:1px solid gray;
 	padding-right: 20px;
 }
 .iconoBH{
-	position: relative;
+	position: absolute;
 	left: 30%;
 	top: 50%;
 }
@@ -15,9 +25,6 @@ body{
 	position: absolute;
 	right: 0;
 	margin: 30px;
-}
-.inline{
-	display: inline-block;
 }
 .CuadroVerde{
 	border: 1px solid green;
